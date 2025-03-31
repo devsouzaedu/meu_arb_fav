@@ -1,12 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { arbitros } from '../../data/arbitros';
 
 export default function ArbitroDemoPage() {
-  const [arbitro, setArbitro] = useState(arbitros[0]);
+  const [arbitro] = useState(arbitros[0]);
   const [activeTab, setActiveTab] = useState('perfil');
 
   // Simulação de solicitações de jogos

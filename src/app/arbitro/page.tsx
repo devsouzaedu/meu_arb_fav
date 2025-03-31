@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import Demo from "../components/DemoArbitro";
 
 export default function ArbitroPage() {
